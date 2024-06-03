@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/validation.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <nav class="nav">
+                <ul><a href="index.html">INICIO</a></ul>
+                <!--<ul><a href="productos.html">PRODUCTOS</a></ul>
+                <ul><a href="#chat">TEXTO IA</a></ul>
+                <ul><a href="#robot">ROBOT</a></ul>
+                <ul><a href="contacto.html">CONTACTO</a></ul>-->
+                <ul><a href="Formulario contacto.html">FORMULARIO</a></ul>
+                <!--<ul><a href="about.html">ACERCA DE INTELIGENCIA ARTIFICIAL</a></ul>-->
+                <ul><a href="inicioSesion.html">INICIAR SESIÓN</a></ul>
+                <ul><a href="conexionApi.html">CONEXIÓN A API</a></ul>
+            </nav>
+            <h1 class="animate__animated animate__backInRight">Inteligencia Artificial</h1>
+        </div>
+    </header>
+
+    <!-- LOGIN SECTION -->
+    <section id="login" class="login-section">
+        <main>
+            <form action="formulario_contacto">
+                <label for="nombres">Nombres:</label><input class="input" type="text" placeholder="Ej: Alejandro Fernandez" required>
+                <label for="apellido">Apellidos:</label><input class="input" type="text" placeholder="Ej: Dominguez" required>
+                <label for="email">Email:</label><input class="input" type="email" placeholder="Ej: Alejandro123@outlook.com" required>
+                <label for="telefono">Teléfono de contacto:</label> <input class="input" type="number" placeholder="00-15-00000" required>
+                <label for="texarea">Ingrese aquí su pregunta</label><textarea class="texarea" id="" cols="30" rows="10" placeholder="120 carácteres max."></textarea>
+                <div class="boton"><button class="btn" type="submit">Enviar</button></div>
+            </form>
+        </main>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pie">
+        <div class="header1">
+            <div class="log">
+                <img src="img/img_ia_cabeza.png" alt="">
+                <p class="logotipo">Inteligencia Artificial</p>
+            </div>
+            <div class="redes">
+                <span class="fb"><i class="fa-brands fa-facebook"></i></span>
+                <span class="tw"><i class="fa-brands fa-twitter"></i></span>
+                <span class="li"><i class="fa-brands fa-linkedin"></i></span>
+                <span class="yt"><i class="fa-brands fa-youtube"></i></span>
+            </div>
+        </div>
+        <hr>
+        <div class="section7">
+            <div>
+                <h2>Compañia</h2>
+                <a class="co" href="contacto.html">Contacto</a>
+                <a class="ac" href="about.html">Acerca De</a>
+                <a class="in" href="index.html">Inicio</a>
+            </div>
+            <div>
+                <h2>Suscríbete</h2>
+                <form action="">
+                    <input type="text" placeholder="Ingrese su email">
+                    <button type="submit">Suscríbete</button>
+                </form>
+            </div>
+        </div>
+        <section>
+            <div class="grow-container">
+                <div class="flex-grow: 4;">Derecho de Autor 2024 IA S.A</div>
+                <div class="flex-grow: 4;">Política de Privacidad Términos y Condiciones</div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
